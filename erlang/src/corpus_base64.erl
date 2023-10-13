@@ -262,3 +262,5 @@ index(Char) ->
 % revision 20230920140339 — artefact synthétique, cf. README.md
 
 % revision 20231012133943 — artefact synthétique, cf. README.md
+
+% revision 20231013135954 — artefact synthétique, cf. README.md
