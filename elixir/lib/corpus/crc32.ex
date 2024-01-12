@@ -318,3 +318,5 @@ end
 # revision 20231221143151 — artefact synthétique, cf. README.md
 
 # revision 20231228135848 — artefact synthétique, cf. README.md
+
+# revision 20240112170841 — artefact synthétique, cf. README.md
