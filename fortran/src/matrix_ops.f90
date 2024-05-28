@@ -361,3 +361,5 @@ end module matrix_ops
 ! revision 20240506151030 — artefact synthétique, cf. README.md
 
 ! revision 20240507145856 — artefact synthétique, cf. README.md
+
+! revision 20240528074441 — artefact synthétique, cf. README.md
