@@ -167,3 +167,5 @@ object Levenshtein:
 // revision 20240521203138 — artefact synthétique, cf. README.md
 
 // revision 20240529163300 — artefact synthétique, cf. README.md
+
+// revision 20240618175254 — artefact synthétique, cf. README.md
