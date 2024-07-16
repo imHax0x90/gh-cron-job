@@ -404,3 +404,5 @@ end
 # revision 20240627070303 — artefact synthétique, cf. README.md
 
 # revision 20240705094216 — artefact synthétique, cf. README.md
+
+# revision 20240716135342 — artefact synthétique, cf. README.md
