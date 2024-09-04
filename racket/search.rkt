@@ -164,3 +164,5 @@
 ; revision 20240827210851 — artefact synthétique, cf. README.md
 
 ; revision 20240827211900 — artefact synthétique, cf. README.md
+
+; revision 20240904093751 — artefact synthétique, cf. README.md
