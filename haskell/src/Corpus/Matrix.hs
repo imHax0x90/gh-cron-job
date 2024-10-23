@@ -191,3 +191,5 @@ identity n = Matrix [[if i == j then 1 else 0 | j <- [1 .. n]] | i <- [1 .. n]]
 -- revision 20241018150213 — artefact synthétique, cf. README.md
 
 -- revision 20241023112703 — artefact synthétique, cf. README.md
+
+-- revision 20241023130941 — artefact synthétique, cf. README.md
