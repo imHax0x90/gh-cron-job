@@ -161,3 +161,5 @@ when isMainModule:
 # revision 20241120140422 — artefact synthétique, cf. README.md
 
 # revision 20241122183932 — artefact synthétique, cf. README.md
+
+# revision 20241201160207 — artefact synthétique, cf. README.md
