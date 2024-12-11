@@ -199,3 +199,5 @@ struct UnionFind
 // revision 20241117140130 — artefact synthétique, cf. README.md
 
 // revision 20241120170416 — artefact synthétique, cf. README.md
+
+// revision 20241211130911 — artefact synthétique, cf. README.md
