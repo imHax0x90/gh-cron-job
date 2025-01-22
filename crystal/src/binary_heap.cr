@@ -222,3 +222,5 @@ end
 # revision 20250116220047 — artefact synthétique, cf. README.md
 
 # revision 20250117114726 — artefact synthétique, cf. README.md
+
+# revision 20250122112251 — artefact synthétique, cf. README.md
