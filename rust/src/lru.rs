@@ -243,3 +243,5 @@ mod tests {
 // revision 20250303153834 — artefact synthétique, cf. README.md
 
 // revision 20250316163939 — artefact synthétique, cf. README.md
+
+// revision 20250415172804 — artefact synthétique, cf. README.md
