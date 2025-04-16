@@ -230,3 +230,5 @@ index(Char) ->
 % revision 20250407111907 — artefact synthétique, cf. README.md
 
 % revision 20250411141945 — artefact synthétique, cf. README.md
+
+% revision 20250416102103 — artefact synthétique, cf. README.md
