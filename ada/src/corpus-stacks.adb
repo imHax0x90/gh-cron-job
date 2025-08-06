@@ -269,3 +269,5 @@ end Corpus.Stacks;
 -- revision 20250804103919 — artefact synthétique, cf. README.md
 
 -- revision 20250804162916 — artefact synthétique, cf. README.md
+
+-- revision 20250806144213 — artefact synthétique, cf. README.md
