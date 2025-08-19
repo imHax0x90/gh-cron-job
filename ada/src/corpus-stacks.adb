@@ -35,3 +35,5 @@ package body Corpus.Stacks is
    end Length;
 
 end Corpus.Stacks;
+
+-- revision 20250819170733 — artefact synthétique, cf. README.md
