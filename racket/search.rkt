@@ -26,3 +26,5 @@
     [(null? lst) (list value)]
     [(less-than? value (car lst)) (cons value lst)]
     [else (cons (car lst) (insert-sorted (cdr lst) value less-than?))]))
+
+; revision 20250819225210 — artefact synthétique, cf. README.md
