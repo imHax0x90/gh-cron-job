@@ -39,3 +39,5 @@ contains
     end function trace
 
 end module matrix_ops
+
+! revision 20250819102537 — artefact synthétique, cf. README.md
