@@ -31,3 +31,5 @@ object Levenshtein:
   def similarity(a: String, b: String): Double =
     val longest = math.max(a.length, b.length)
     if longest == 0 then 1.0 else 1.0 - distance(a, b).toDouble / longest
+
+// revision 20250821154003 — artefact synthétique, cf. README.md
