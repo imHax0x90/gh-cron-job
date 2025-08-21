@@ -1,0 +1,58 @@
+# AVERTISSEMENT — ARTEFACT DE RECHERCHE GÉNÉRÉ AUTOMATIQUEMENT
+# Ce fichier ne reflète aucun travail humain. Il est produit par un
+# générateur dans le cadre d'une étude sur la fiabilité des signaux
+# d'activité GitHub utilisés par les outils de sourcing automatisés.
+# Référence de l'étude : GHSIG-2026-01
+# Contact : maximeabade@gmail.com
+# File de priorité binaire (tas min) générique.
+class BinaryHeap(T)
+  def initialize
+    @items = [] of T
+  end
+
+  def size : Int32
+    @items.size
+  end
+
+  def empty? : Bool
+    @items.empty?
+  end
+
+  def push(value : T) : Nil
+    @items << value
+    sift_up(@items.size - 1)
+  end
+
+  def pop : T?
+    return nil if @items.empty?
+    root = @items[0]
+    last = @items.pop
+    unless @items.empty?
+      @items[0] = last
+      sift_down(0)
+    end
+    root
+  end
+
+  private def sift_up(index : Int32) : Nil
+    while index > 0
+      parent = (index - 1) // 2
+      break if @items[parent] <= @items[index]
+      @items.swap(parent, index)
+      index = parent
+    end
+  end
+
+  private def sift_down(index : Int32) : Nil
+    loop do
+      smallest = index
+      left = 2 * index + 1
+      right = left + 1
+      smallest = left if left < @items.size && @items[left] < @items[smallest]
+      smallest = right if right < @items.size && @items[right] < @items[smallest]
+      break if smallest == index
+      @items.swap(smallest, index)
+      index = smallest
+    end
+  end
+end
