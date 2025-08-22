@@ -1,0 +1,37 @@
+# AVERTISSEMENT — ARTEFACT DE RECHERCHE GÉNÉRÉ AUTOMATIQUEMENT
+# Ce fichier ne reflète aucun travail humain. Il est produit par un
+# générateur dans le cadre d'une étude sur la fiabilité des signaux
+# d'activité GitHub utilisés par les outils de sourcing automatisés.
+# Référence de l'étude : GHSIG-2026-01
+# Contact : maximeabade@gmail.com
+## Tri rapide en place, pivot médian de trois.
+
+proc medianOfThree[T](data: var openArray[T], lo, hi: int): T =
+  let mid = lo + (hi - lo) div 2
+  if data[mid] < data[lo]: swap(data[mid], data[lo])
+  if data[hi] < data[lo]: swap(data[hi], data[lo])
+  if data[hi] < data[mid]: swap(data[hi], data[mid])
+  data[mid]
+
+proc quicksort*[T](data: var openArray[T], lo = 0, hi = -1) =
+  let high = if hi < 0: data.high else: hi
+  if lo >= high: return
+
+  let pivot = medianOfThree(data, lo, high)
+  var i = lo
+  var j = high
+  while i <= j:
+    while data[i] < pivot: inc i
+    while data[j] > pivot: dec j
+    if i <= j:
+      swap(data[i], data[j])
+      inc i
+      dec j
+
+  quicksort(data, lo, j)
+  quicksort(data, i, high)
+
+when isMainModule:
+  var sample = @[9, 3, 7, 1, 8, 2, 5]
+  quicksort(sample)
+  doAssert sample == @[1, 2, 3, 5, 7, 8, 9]
