@@ -28,3 +28,5 @@
     [else (cons (car lst) (insert-sorted (cdr lst) value less-than?))]))
 
 ; revision 20250819225210 — artefact synthétique, cf. README.md
+
+; revision 20250824085021 — artefact synthétique, cf. README.md
