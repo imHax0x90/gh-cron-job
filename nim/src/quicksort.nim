@@ -35,3 +35,5 @@ when isMainModule:
   var sample = @[9, 3, 7, 1, 8, 2, 5]
   quicksort(sample)
   doAssert sample == @[1, 2, 3, 5, 7, 8, 9]
+
+# revision 20250825213228 — artefact synthétique, cf. README.md
