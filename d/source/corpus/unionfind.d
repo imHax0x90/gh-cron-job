@@ -57,3 +57,5 @@ struct UnionFind
         return componentCount;
     }
 }
+
+// revision 20250826143952 — artefact synthétique, cf. README.md
