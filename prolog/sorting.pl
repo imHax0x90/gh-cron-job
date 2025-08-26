@@ -34,3 +34,5 @@ flatten_list([Head | Tail], Flat) :-
     flatten_list(Tail, FlatTail),
     append(FlatHead, FlatTail, Flat).
 flatten_list(Atom, [Atom]).
+
+% revision 20250826204953 — artefact synthétique, cf. README.md
