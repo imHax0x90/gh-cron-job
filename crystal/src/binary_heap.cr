@@ -56,3 +56,5 @@ class BinaryHeap(T)
     end
   end
 end
+
+# revision 20250828213637 — artefact synthétique, cf. README.md
