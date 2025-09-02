@@ -36,3 +36,5 @@ defmodule Corpus.Crc32 do
     Bitwise.bxor(elem(@table, index), Bitwise.bsr(crc, 8))
   end
 end
+
+# revision 20250902163729 — artefact synthétique, cf. README.md
