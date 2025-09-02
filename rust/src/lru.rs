@@ -69,3 +69,5 @@ mod tests {
         assert_eq!(cache.len(), 2);
     }
 }
+
+// revision 20250902164637 — artefact synthétique, cf. README.md
