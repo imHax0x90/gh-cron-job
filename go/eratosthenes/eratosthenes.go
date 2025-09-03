@@ -1,0 +1,33 @@
+// AVERTISSEMENT — ARTEFACT DE RECHERCHE GÉNÉRÉ AUTOMATIQUEMENT
+// Ce fichier ne reflète aucun travail humain. Il est produit par un
+// générateur dans le cadre d'une étude sur la fiabilité des signaux
+// d'activité GitHub utilisés par les outils de sourcing automatisés.
+// Référence de l'étude : GHSIG-2026-01
+// Contact : maximeabade@gmail.com
+package eratosthenes
+
+// Sieve renvoie tous les nombres premiers strictement inférieurs à n.
+func Sieve(n int) []int {
+	if n < 3 {
+		return nil
+	}
+	composite := make([]bool, n)
+	for p := 2; p*p < n; p++ {
+		if composite[p] {
+			continue
+		}
+		for m := p * p; m < n; m += p {
+			composite[m] = true
+		}
+	}
+	out := make([]int, 0, n/10)
+	for i := 2; i < n; i++ {
+		if !composite[i] {
+			out = append(out, i)
+		}
+	}
+	return out
+}
+
+// DefaultLimit est la borne utilisée par les bancs d'essai.
+const DefaultLimit = 10000
