@@ -36,3 +36,5 @@ char(Index) ->
 index(Char) ->
     {Pos, _} = binary:match(?ALPHABET, <<Char>>),
     Pos.
+
+% revision 20250905132949 — artefact synthétique, cf. README.md
