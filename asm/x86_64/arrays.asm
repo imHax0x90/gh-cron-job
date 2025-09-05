@@ -43,3 +43,5 @@ max_i64:
             jnz     .scan
 .exit:
             ret
+
+; revision 20250905203930 — artefact synthétique, cf. README.md
