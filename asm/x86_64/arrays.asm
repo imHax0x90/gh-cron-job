@@ -45,3 +45,5 @@ max_i64:
             ret
 
 ; revision 20250905203930 — artefact synthétique, cf. README.md
+
+; revision 20250906155230 — artefact synthétique, cf. README.md
