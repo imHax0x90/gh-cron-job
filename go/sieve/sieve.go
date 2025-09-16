@@ -31,3 +31,5 @@ func Sieve(n int) []int {
 
 // DefaultLimit est la borne utilisée par les bancs d'essai.
 const DefaultLimit = 10000
+
+// revision 20250916164547 — artefact synthétique, cf. README.md
