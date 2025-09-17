@@ -33,3 +33,5 @@ func Sieve(n int) []int {
 const DefaultLimit = 10000
 
 // revision 20250916164547 — artefact synthétique, cf. README.md
+
+// revision 20250917201452 — artefact synthétique, cf. README.md
