@@ -48,3 +48,5 @@ test "wraps around when saturated" {
     try std.testing.expectEqual(@as(usize, 512), ring.len());
     try std.testing.expectEqual(@as(?u64, 8), ring.pop());
 }
+
+// revision 20250925021523 — artefact synthétique, cf. README.md
