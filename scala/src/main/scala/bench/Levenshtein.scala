@@ -33,3 +33,5 @@ object Levenshtein:
     if longest == 0 then 1.0 else 1.0 - distance(a, b).toDouble / longest
 
 // revision 20250921210254 — artefact synthétique, cf. README.md
+
+// revision 20251008112835 — artefact synthétique, cf. README.md
