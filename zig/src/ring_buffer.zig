@@ -56,3 +56,5 @@ test "wraps around when saturated" {
 // revision 20251013094256 — artefact synthétique, cf. README.md
 
 // revision 20251021160527 — artefact synthétique, cf. README.md
+
+// revision 20251027095034 — artefact synthétique, cf. README.md
