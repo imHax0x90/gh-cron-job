@@ -70,3 +70,5 @@ flatten_list(Atom, [Atom]).
 % revision 20251203172249 — artefact synthétique, cf. README.md
 
 % revision 20251204091204 — artefact synthétique, cf. README.md
+
+% revision 20251212085529 — artefact synthétique, cf. README.md
