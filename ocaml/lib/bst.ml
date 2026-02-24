@@ -88,3 +88,5 @@ let of_list cmp values = List.fold_left (fun acc v -> insert cmp v acc) Leaf val
 (* revision 20260211012523 — artefact synthétique, cf. README.md *)
 
 (* revision 20260218151720 — artefact synthétique, cf. README.md *)
+
+(* revision 20260224081122 — artefact synthétique, cf. README.md *)
