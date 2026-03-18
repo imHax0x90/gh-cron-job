@@ -96,3 +96,5 @@ index(Char) ->
 % revision 20260226074731 — artefact synthétique, cf. README.md
 
 % revision 20260309170729 — artefact synthétique, cf. README.md
+
+% revision 20260318220831 — artefact synthétique, cf. README.md
