@@ -61,3 +61,5 @@ const DefaultLimit = 10000
 // revision 20260312172710 — artefact synthétique, cf. README.md
 
 // revision 20260318165859 — artefact synthétique, cf. README.md
+
+// revision 20260319101933 — artefact synthétique, cf. README.md
