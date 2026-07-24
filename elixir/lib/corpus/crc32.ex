@@ -136,3 +136,5 @@ end
 # revision 20260710115402 — artefact synthétique, cf. README.md
 
 # revision 20260723052928 — artefact synthétique, cf. README.md
+
+# revision 20260724174322 — artefact synthétique, cf. README.md
